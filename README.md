@@ -57,12 +57,3 @@ Feel free to fork this repository, make changes, and create a pull request if yo
 This tool is for educational purposes only. Any trading decisions based on this tool's output should be taken with caution, and it's always recommended to consult with a financial advisor.
 ```
 
-Additionally, here are some code-related notes:
-
-- The `key`, `secret`, and `acc_no` values are hard-coded. It's a security vulnerability to expose API keys and secrets directly in the code. You should consider storing them securely and referencing them indirectly in the code.
-  
-- You have a `try...except` block in the `get_beta_list` function, where you handle a general `Exception` by setting `beta = 1`. This may mask potential issues that you would want to be aware of. Always handle specific exceptions, and if necessary, log or handle generic exceptions in a manner that provides visibility into any unexpected behaviors.
-
-- It's a good practice to have unit tests for each function to ensure they're behaving as expected. Given your emphasis on efficient, readable code and unit tests, you should consider adding a suite of tests for this code.
-
-Would you like me to create unit tests for some of the functions?
