@@ -12,7 +12,7 @@ This repository contains a Python script that provides tools for analyzing Korea
 4. **Return Calculations**: Based on the generated signals, it computes daily and cumulative returns.
 5. **Portfolio Creation & Visualization**: Using the signals, a hypothetical portfolio is created and its performance is visualized over time.
 6. **Trade Simulation**: Simulates trading based on the moving average crossover strategy for various stocks.
-7. **Max Sharpe Ratio Portfolio**: Identifies the portfolio weights that yield the maximum Sharpe ratio.
+7. **Max Sharpe Ratio Portfolio**: Identifies the portfolio weights that yield the maximum Sharpe ratio through a Monte Carlo Simulation.
 
 ## Dependencies
 
